@@ -30,10 +30,15 @@ body{
 .primary > a {
     text-decoration: none;
     color:red;
+    transition: 0.3s;
+}
+.primary > a:hover{
+    text-decoration: none;
+    color:white;
 }
 .primary:hover{
     background-color:red;
-    color:white;
+    /* color:white !important; */
     border: 1px solid red;
 }
 
