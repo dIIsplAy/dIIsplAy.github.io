@@ -150,26 +150,30 @@ body{
 }
 .input-container  > input {
     padding:10px 20px;
-    border-radius:8px;
+    /* border-radius:8px; */
     border:none;
     border-bottom:2px solid #E8E9F3;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
     transition: 0.4s;
-    background-color: #E8E9F3;
+    background-color: transparent;
+    /* background-color: #E8E9F3; */
     outline: none;
 }
 
 .input-container > input:focus{
-    background-color: white;
+    /* background-color: white; */
     color: #E8E9F3;
     outline: none !important;
+    border-color: #B1E5F2;
 }
 .input-container  > textarea {
     padding:10px 20px;
     border-radius:8px;
     border:1px solid #E8E9F3;
-    background-color: #E8E9F3;
+    /* background-color: #E8E9F3; */
+    background-color: transparent;
     transition: 0.4s;
+    resize: none;
 }
 
 .input-container > textarea:focus {
@@ -190,6 +194,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     font-size:18px;
     border:1px solid white;
+    border-radius: 12px;
 }
 .input-container > .envoyer:hover{
     color: #B1E5F2;
