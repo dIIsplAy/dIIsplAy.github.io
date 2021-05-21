@@ -2,7 +2,6 @@ body{
     margin:0;
     padding: 0;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
 .container {
@@ -86,3 +85,8 @@ body{
 .box-image:hover > .checkmore {
     opacity: 100%;
 }
+
+
+
+
+
