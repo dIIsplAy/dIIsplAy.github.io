@@ -48,8 +48,8 @@ body{
 }
 .big-title-landing {
     text-align: center;
-    position: relative;
-    z-index: 1;
+    /* position: relative;
+    z-index: 1; */
 }
 .big-title-landing > h1 {
     font-size: 96px;
@@ -116,7 +116,7 @@ body{
     left: 0;
     border-top: 5px solid #383D3B;
     width: 100%;
-    transition: 0.45s;
+    transition: 0.30s;
   }
   .menu-top {
     top: 0;
@@ -131,7 +131,7 @@ body{
     backface-visibility: hidden;
     top: 15px;
     transform: rotate(50deg);
-    transition: 0.55s 0.5s;
+    transition: 0.45s 0.4s;
   }
   .menu-middle-click {
     opacity: 0;
@@ -140,8 +140,7 @@ body{
     backface-visibility: hidden;
     top: 15px;
     transform: rotate(-410deg);
-    transition: 0.55s 0.5s;
-  }
+    transition: 0.45s 0.4s;  }
 
 .navbar{
     width:7%;
@@ -200,8 +199,8 @@ body{
 .content-block-1 {
     height: 100vh; 
     background-color:violet;
-    z-index: 2;
-    position: relative;
+    /* z-index: 2; */
+    /* position: relative; */
  }
 
 /* BLOCK CONTENT 2  */
@@ -213,4 +212,33 @@ body{
 .content-block-3 {
     height: 100vh;
     background-color:yellow;
+}
+
+
+/* BACK TO TOP BTN  */
+
+.back-top{
+    background-color: transparent;
+    position: fixed;
+    right: 2%;
+    top: 90vh;
+    z-index: 2;
+    display: flex;
+    border: 2px solid #383D3B;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 3%;
+    height: 5%;
+    outline: none !important;
+}
+
+.back-top > svg {
+    fill:#383D3B;
+ transition: 0.8s;
+}
+
+
+.back-top > svg:hover {
+    fill:#EEE5E9;
 }

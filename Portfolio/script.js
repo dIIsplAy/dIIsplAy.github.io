@@ -56,3 +56,21 @@ var value =  window.scrollY;
 title.style.top = value * 1 + 'px';
 });
 
+// BTN BACK TO TOP JS 
+$backtop = $('.back-top');
+$backtop.hide();
+
+$(window).on('scroll', function() {
+  if ($(this).scrollTop() > 200) {
+    $backtop.fadeIn();
+  } else {
+    $backtop.fadeOut();
+  }
+});
+
+$backtop.on('click', function(e){
+  $("html, body").animate({scrollTop:0});
+});
+
+
+
