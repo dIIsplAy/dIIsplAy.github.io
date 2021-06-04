@@ -74,3 +74,37 @@ $backtop.on('click', function(e){
 
 
 
+// SCROLLL REVEAL FOR LOVE
+
+ScrollReveal().reveal('.right-block', {
+  delay: 300,
+  duration:450,
+  reset:true,
+  easing: 'ease-in',
+  distance: '40px',
+  origin: 'right',
+});
+ScrollReveal().reveal('.left-block', {
+  delay: 600,
+  duration:600,
+  reset:true,
+  easing: 'ease-in',
+  origin: 'right',
+  distance: '400px',
+});
+ScrollReveal().reveal('.reveal-title-about', {
+  delay: 700,
+  duration:400,
+  reset:true,
+  easing: 'ease-in',
+  origin: 'right',
+  distance: '200px',
+});
+ScrollReveal().reveal('.reveal-title-icons', {
+  delay: 1500,
+  duration:400,
+  reset:true,
+  easing: 'ease-in',
+  origin: 'bottom',
+  distance: '60px',
+});
