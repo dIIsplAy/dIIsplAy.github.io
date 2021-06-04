@@ -90,7 +90,7 @@ ScrollReveal().reveal('.left-block', {
   reset:true,
   easing: 'ease-in',
   origin: 'right',
-  distance: '400px',
+  distance: '20px',
 });
 ScrollReveal().reveal('.reveal-title-about', {
   delay: 700,
@@ -98,13 +98,13 @@ ScrollReveal().reveal('.reveal-title-about', {
   reset:true,
   easing: 'ease-in',
   origin: 'right',
-  distance: '200px',
+  distance: '20px',
 });
-ScrollReveal().reveal('.reveal-title-icons', {
-  delay: 1500,
-  duration:400,
-  reset:true,
-  easing: 'ease-in',
-  origin: 'bottom',
-  distance: '60px',
-});
+// ScrollReveal().reveal('.reveal-title-icons', {
+//   delay: 1500,
+//   duration:400,
+//   reset:true,
+//   easing: 'ease-in',
+//   origin: 'bottom',
+//   distance: '60px',
+// });

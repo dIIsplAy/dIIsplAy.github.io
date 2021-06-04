@@ -70,12 +70,12 @@ h1 {
     z-index: 1; */
 }
 .big-title-landing > h1 {
-    font-size: 96px;
+    font-size: 5em;
     font-family: 'Odibee Sans', cursive;
     font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 1em;
-    padding-left: 1em;
+    letter-spacing: 0.3em;
+    padding-left: 0.3em;
 }
 .title-landing {
     display:flex;
@@ -93,7 +93,7 @@ h1 {
 
 }
 .btn-scroll {
-    width: 2%;
+    width: 25px;
     border: 2px solid #383D3B;
     border-radius: 12px;
     height: 7%;
@@ -164,9 +164,10 @@ h1 {
     left:0;
     top:0;
     position:fixed;
-    background-color: transparent;
-    border-right: 1px solid #383D3B;    /* background-color:#EEE5E9; */
-    /* background-color:rgba(238, 229, 233, 0.5); */
+    /* background-color: transparent; */
+    border-right: 1px solid #383D3B;    
+    /* background-color:#EEE5E9; */
+    background-color:rgba(238, 229, 233, 0.5);
     /* background-color:rgba(56, 61, 59, 0.7); */
     display:flex;
     flex-direction: column;
@@ -200,6 +201,7 @@ h1 {
     justify-content: center;
     align-items: center;
     transition: 0.3s ease-in-out;
+    width: 100%;
 }
 .nav-item > .item:hover{
     border-right:8px solid #52DEE5;
@@ -223,7 +225,11 @@ h1 {
 
 .content-block-1 {
     height: 100vh; 
-    background: radial-gradient(circle, rgba(193,248,255,1) 18%, rgba(196,235,255,1) 84%);
+    /* background: radial-gradient(circle, rgba(193,248,255,1) 18%, rgba(196,235,255,1) 84%); */
+    background-image: url('image/fukurian-blue.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     /* position: relative; */
  }
 
@@ -236,14 +242,26 @@ h1 {
  .content-block-1 > .row > div{
      height: 80%;
  }
- .content-block-1 > .row > .left-block {
+ /* .content-block-1 > .row > .left-block {
      background-color:#FFFFFF;
      display: flex;
      justify-content: center;
      align-items: center;
      border-top-left-radius: 4%;
      border-bottom-left-radius: 4%;
-     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ } */
+ .content-block-1 > .row > .left-block {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top-left-radius: 4%; */
+    /* border-bottom-left-radius: 4%; */
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    height: 65%;
+    border-radius: 50%;
+    width: 80%;
  }
  
  .content-block-1 > .row > .left-block > .block-1-image {
@@ -258,7 +276,9 @@ h1 {
         background-color:#FFFFFF;
         border-top-right-radius: 4%;
         border-bottom-right-radius: 4%;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+        height: 75%;
+        padding:15px 15px;
     }
 
     .intro-right-block {
@@ -266,7 +286,7 @@ h1 {
         display: flex;
         align-items: baseline;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-around;
         text-align: start;
     }
 
@@ -281,9 +301,6 @@ h1 {
         height: 100%;
     }
 
-    .intro-right-block > p {
-        width: 80%;
-    }
     .reveal-title-about {
         letter-spacing: 0.2em;
     }
@@ -305,13 +322,14 @@ h1 {
  }
 
  .passions-block > div > svg {
-     width: 35%;
+     width: 55%;
      margin-top: 15%;
      fill: #92DCE5;
      border-radius: 50%;
      border:1px solid transparent;
      transition: transform .1s ease;
      padding:5px 5px;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  }
 
  .passions-block > div > svg:hover {
