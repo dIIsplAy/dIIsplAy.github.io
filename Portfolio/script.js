@@ -1,8 +1,12 @@
 
+
+
 var nav = document.querySelector(".navbar");
 var navBtn = document.querySelector(".togglemenu");
 
-navBtn.addEventListener("click", toggleMenu)
+
+navBtn.addEventListener("click", toggleMenu);
+
 
 function toggleMenu() {
   if (nav.classList.contains("showNav")) {
@@ -11,6 +15,7 @@ function toggleMenu() {
     nav.classList.add("showNav");
   }
 }
+
 
 
 // BURGER MENNU JS
@@ -47,6 +52,13 @@ var Menu = {
   
   Menu.init();
 
+function closeMenuAndBurger (){
+ 
+  toggleMenu();
+  Menu.activateMenu()
+
+}
+
 
 // BIG TITLE PARRALAX
 
@@ -79,7 +91,7 @@ $backtop.on('click', function(e){
 ScrollReveal().reveal('.right-block', {
   delay: 300,
   duration:450,
-  reset:true,
+  // reset:true,
   easing: 'ease-in',
   distance: '40px',
   origin: 'right',
@@ -87,7 +99,7 @@ ScrollReveal().reveal('.right-block', {
 ScrollReveal().reveal('.left-block', {
   delay: 600,
   duration:600,
-  reset:true,
+  // reset:true,
   easing: 'ease-in',
   origin: 'right',
   distance: '20px',
@@ -95,7 +107,7 @@ ScrollReveal().reveal('.left-block', {
 ScrollReveal().reveal('.reveal-title-about', {
   delay: 700,
   duration:400,
-  reset:true,
+  // reset:true,
   easing: 'ease-in',
   origin: 'right',
   distance: '20px',
@@ -108,3 +120,6 @@ ScrollReveal().reveal('.reveal-title-about', {
 //   origin: 'bottom',
 //   distance: '60px',
 // });
+
+
+
