@@ -123,6 +123,7 @@ h1 {
     justify-content: flex-end;
     position: fixed;
     top: 2%;
+    z-index: 100;
 }
 .menu {
     cursor: pointer;
@@ -137,7 +138,7 @@ h1 {
     backface-visibility: hidden;
     position: absolute;
     left: 0;
-    border-top: 3px solid #383D3B;
+    border-top: 2px solid #00bdbd;
     width: 100%;
     transition: 0.30s;
   }
@@ -145,10 +146,10 @@ h1 {
     top: 0;
   }
   .menu-middle {
-    top: 15px;
+    top: 10px;
   }
   .menu-bottom {
-    top: 30px;
+    top: 20px;
   }
   .menu-top-click {
     backface-visibility: hidden;
@@ -177,8 +178,8 @@ h1 {
     transform: translateX(-100%);
     transition: transform 1s;
     justify-content: center;
-    z-index: 100;
     background-color: #52DEE5;
+    z-index: 99;
     /* background-color:rgba(238, 229, 233, 0.5);
     backdrop-filter: blur(6px); */
 }
@@ -243,7 +244,7 @@ div > .nav-right-logo > div {
 }
 
 .label-nav:hover{
-text-shadow: 40px 60px 0px #00bdbd;
+text-shadow: 40px 40px 0px #00bdbd;
                  /* 180px 0px 0px #01cccc; */
                  /* 160px 80px 0px #00e6e6; */
 }
