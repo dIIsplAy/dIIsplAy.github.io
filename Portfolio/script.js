@@ -84,7 +84,9 @@ $backtop.on('click', function(e){
   $("html, body").animate({scrollTop:0});
 });
 
+// BTN HOME SCROLL
 
+var btnScroll = document.querySelector('.btn-scroll');
 
 // SCROLLL REVEAL FOR LOVE
 
