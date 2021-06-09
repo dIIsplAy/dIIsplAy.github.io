@@ -123,10 +123,15 @@ h1 {
     width: 50%;
     height: 25%;
     fill:#FFFFFF;
+    transition: 0.2s ease-in;
     
     /* background-image: url('image/icons/down-arrow.png');
     background-size: cover;
     background-position: center; */
+}
+
+.btn-scroll > .box-btn > svg:hover {
+    transform: scale(1.2);
 }
 
 /* BTN BURGER NAV  */

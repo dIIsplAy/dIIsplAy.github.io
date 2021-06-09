@@ -1,12 +1,8 @@
 
-
-
 var nav = document.querySelector(".navbar");
 var navBtn = document.querySelector(".togglemenu");
 
-
 navBtn.addEventListener("click", toggleMenu);
-
 
 function toggleMenu() {
   if (nav.classList.contains("showNav")) {
@@ -15,8 +11,6 @@ function toggleMenu() {
     nav.classList.add("showNav");
   }
 }
-
-
 
 // BURGER MENNU JS
 var Menu = {
@@ -49,16 +43,12 @@ var Menu = {
       Menu.el.menuBottom.toggleClass('menu-bottom-click'); 
     }
   };
-  
   Menu.init();
 
 function closeMenuAndBurger (){
- 
   toggleMenu();
   Menu.activateMenu()
-
 }
-
 
 // BIG TITLE PARRALAX
 
@@ -86,7 +76,10 @@ $backtop.on('click', function(e){
 
 // BTN HOME SCROLL
 
-var btnScroll = document.querySelector('.btn-scroll');
+$btnScroll = $('.btn-scroll');
+$btnScroll.on('click', function(e){
+  $("html, body").animate({scrollTop:762}, 100);
+});
 
 // SCROLLL REVEAL FOR LOVE
 
