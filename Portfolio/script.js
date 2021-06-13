@@ -71,7 +71,7 @@ $(window).on('scroll', function() {
 });
 
 $backtop.on('click', function(e){
-  $("html, body").animate({scrollTop:0});
+  $("html, body").animate({scrollTop:0}, 100);
 });
 
 // BTN HOME SCROLL
