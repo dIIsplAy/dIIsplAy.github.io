@@ -1,0 +1,1 @@
+window.location.replace("https://diisplay.github.io/Portfolio/index.html");

@@ -6,22 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- <div class="nav">
-    </div> -->
-    <div class="try">
-        <div class="content">
-            <h1>Im a bear a huge bear</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem ullam veniam nam molestiae? Deserunt eius ipsum nobis, facilis soluta vitae quaerat consectetur fugiat. Voluptate sit corrupti illum saepe nisi, ad iste. Corporis ipsam magnam labore!
-            </p>
-            <button class="primary"><a href="contact/index.html">Contact</a></button>
-        </div>
-    </div>
-    <div class="parallax"></div>
-    <div class="splitContaint">
-        <div class="splitted"></div>
-        <div class="splitted"></div>
+    <div class="container-fluid big-container">
+        <div class="three col col-xl-12">
+            <div class="loader" id="loader-6">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
     </div>
 </body>
+<script type="text/JavaScript">
+// setTimeout(function(){ 
+
+// window.location.href = "https://diisplay.github.io/Portfolio/index.html";
+
+// }, 1500);
+$(function(){
+    setTimeout(function(){
+        $("body").fadeOut(200,function(){
+           window.location.href = "https://diisplay.github.io/Portfolio/index.html"
+        })
+    },1000)
+ });
+  </script>
+<scrip src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></scrip>
 </html>
