@@ -488,6 +488,19 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80%;
+}
+
+.content-block-3 > div > .contact-form {
+    height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.content-block-3 > div > .contact-form > h1 {
+    text-align: center;
 }
 
 .message {
