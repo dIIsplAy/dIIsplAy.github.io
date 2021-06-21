@@ -1,137 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- <script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- <script>
         ScrollReveal({ reset: true });
     </script> -->
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.js"
-  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-  crossorigin="anonymous"></script>
-    <title>Portofolio</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <title>Portofolio</title>
 </head>
+
 <body>
-    <div class="container-fluid">
-       <button class="back-top"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"/></svg></button>
-            <div class="landing-block " id="anchor-b0">
-                <div class="nav-togle row"> 
-                    <div class="togglemenu menu">
-                        <span class="menu-global menu-top"></span>
-                        <span class="menu-global menu-middle"></span>
-                        <span class="menu-global menu-bottom"></span>
-                      </div>
-                </div>
-                <!-- <button class="togglemenu btn btn-primary">menu</button> -->
-                <div id="title" class="big-title-landing">
-                    <h1>Moon</h1>
-                </div>
-                <div class="title-landing">
-                    <h2>Everyone is a moon, and has a dark side which he never shows to anybody.
-                    </h2>
-                </div>
-                <div class="btn-scroll">
-                    <div class="box-btn">
-                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512" height="512">
-                        <path d="M346.001,114c-5.147,0-10.29-1.973-14.201-5.916l-61.653-62.162C266.358,42.103,261.335,40,256,40  s-10.358,2.103-14.146,5.922L180.2,108.084c-7.778,7.842-20.44,7.895-28.284,0.116c-7.843-7.778-7.895-20.442-0.116-28.284  l61.653-62.162C224.809,6.305,239.919,0,256,0s31.191,6.305,42.547,17.754L360.2,79.916c7.778,7.842,7.727,20.506-0.116,28.284  C356.185,112.068,351.091,114,346.001,114z M298.547,494.246l61.653-62.162c7.778-7.842,7.727-20.506-0.116-28.284  c-7.844-7.778-20.506-7.726-28.284,0.116l-61.653,62.162C266.358,469.897,261.335,472,256,472s-10.358-2.103-14.146-5.922  L180.2,403.916c-7.778-7.841-20.44-7.895-28.284-0.116c-7.843,7.778-7.895,20.442-0.116,28.284l61.653,62.162  C224.809,505.695,239.919,512,256,512S287.191,505.695,298.547,494.246z M325,255c0-38.598-31.402-70-70-70s-70,31.402-70,70  s31.402,70,70,70S325,293.598,325,255z M285,255c0,16.542-13.458,30-30,30s-30-13.458-30-30s13.458-30,30-30S285,238.458,285,255z"/>
-                        </svg>
-                    </div>
-                </div>
-                <div class="navbar">
-                    <div class="logo-nav">
-                    </div>
-                    <div class="nav-item col-6 col-md-6 col-xl-6">
-                        <a href="#anchor-b0" class="item" onclick="closeMenuAndBurger()">
-                       <span class="label-nav">home</span></a>
-                        <a href="#anchor-b1" class="item" onclick="closeMenuAndBurger()">
-                       <span class="label-nav">About</span></a>
-                         <a href="#anchor-b2" class="item" onclick="closeMenuAndBurger()">
-                            <span class="label-nav">Work</span></a>
-                        <a href="#anchor-b3" class="item" onclick="closeMenuAndBurger()">
-                            <span class="label-nav">Contact</span></a>
-                    </div>
-                    <div class="col-6 col-md-6 col-xl-6 right-nav">
-                        <div class="info col-12 col-md-12 col-xl-12">
-                            <li class="col-12">
-                                <ul>Web developper</ul>
-                                <ul class="link-contact">
-                                  <a cristophol href="#anchor-b3" onclick="closeMenuAndBurger()">thomas.cristophol @gmail.com 
-                                  </a>
-                                  </ul>
-                                <ul>Open to work ..</ul>
-                            </li>
-                            <div class="row nav-right-logo">
-                              <div class="col-4 col-md-3 col-xl-2">
-                                  <a href="https://www.linkedin.com/feed/">
-                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                      viewBox="0 0 112.196 112.196" style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve"><g>
-                                      <circle style="fill:#FFFFFF;" cx="56.098" cy="56.097" r="56.098"/>
-                                      <g>
-                                        <path style="fill:#52DEE5;" d="M89.616,60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118
+  <div class="container-fluid">
+    <button class="back-top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" />
+      </svg></button>
+    <div class="landing-block " id="anchor-b0">
+      <div class="nav-togle row">
+        <div class="togglemenu menu">
+          <span class="menu-global menu-top"></span>
+          <span class="menu-global menu-middle"></span>
+          <span class="menu-global menu-bottom"></span>
+        </div>
+      </div>
+      <!-- <button class="togglemenu btn btn-primary">menu</button> -->
+      <div id="title" class="big-title-landing">
+        <h1>Moon</h1>
+      </div>
+      <div class="title-landing">
+        <h2>Everyone is a moon, and has a dark side which he never shows to anybody.
+        </h2>
+      </div>
+      <div class="btn-scroll">
+        <div class="box-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1"
+            x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"
+            width="512" height="512">
+            <path
+              d="M346.001,114c-5.147,0-10.29-1.973-14.201-5.916l-61.653-62.162C266.358,42.103,261.335,40,256,40  s-10.358,2.103-14.146,5.922L180.2,108.084c-7.778,7.842-20.44,7.895-28.284,0.116c-7.843-7.778-7.895-20.442-0.116-28.284  l61.653-62.162C224.809,6.305,239.919,0,256,0s31.191,6.305,42.547,17.754L360.2,79.916c7.778,7.842,7.727,20.506-0.116,28.284  C356.185,112.068,351.091,114,346.001,114z M298.547,494.246l61.653-62.162c7.778-7.842,7.727-20.506-0.116-28.284  c-7.844-7.778-20.506-7.726-28.284,0.116l-61.653,62.162C266.358,469.897,261.335,472,256,472s-10.358-2.103-14.146-5.922  L180.2,403.916c-7.778-7.841-20.44-7.895-28.284-0.116c-7.843,7.778-7.895,20.442-0.116,28.284l61.653,62.162  C224.809,505.695,239.919,512,256,512S287.191,505.695,298.547,494.246z M325,255c0-38.598-31.402-70-70-70s-70,31.402-70,70  s31.402,70,70,70S325,293.598,325,255z M285,255c0,16.542-13.458,30-30,30s-30-13.458-30-30s13.458-30,30-30S285,238.458,285,255z" />
+          </svg>
+        </div>
+      </div>
+      <div class="navbar">
+        <div class="logo-nav">
+        </div>
+        <div class="nav-item col-6 col-md-6 col-xl-6">
+          <a href="#anchor-b0" class="item" onclick="closeMenuAndBurger()">
+            <span class="label-nav">home</span></a>
+          <a href="#anchor-b1" class="item" onclick="closeMenuAndBurger()">
+            <span class="label-nav">About</span></a>
+          <a href="#anchor-b2" class="item" onclick="closeMenuAndBurger()">
+            <span class="label-nav">Work</span></a>
+          <a href="#anchor-b3" class="item" onclick="closeMenuAndBurger()">
+            <span class="label-nav">Contact</span></a>
+        </div>
+        <div class="col-6 col-md-6 col-xl-6 right-nav">
+          <div class="info col-12 col-md-12 col-xl-12">
+            <li class="col-12">
+              <ul>Web developper</ul>
+              <ul class="link-contact">
+                <a cristophol href="#anchor-b3" onclick="closeMenuAndBurger()">thomas.cristophol @gmail.com
+                </a>
+              </ul>
+              <ul>Open to work ..</ul>
+            </li>
+            <div class="row nav-right-logo">
+              <div class="col-4 col-md-3 col-xl-2">
+                <a href="https://www.linkedin.com/feed/">
+                  <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 112.196 112.196"
+                    style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve">
+                    <g>
+                      <circle style="fill:#FFFFFF;" cx="56.098" cy="56.097" r="56.098" />
+                      <g>
+                        <path style="fill:#52DEE5;"
+                          d="M89.616,60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118
                                           c-3.705,0-5.906,2.491-6.878,4.903c-0.353,0.862-0.444,2.059-0.444,3.268v22.524H48.684c0,0,0.18-36.546,0-40.329h13.411v5.715
                                           c-0.027,0.045-0.065,0.089-0.089,0.132h0.089v-0.132c1.782-2.742,4.96-6.662,12.085-6.662
-                                          C83.002,42.462,89.616,48.226,89.616,60.611L89.616,60.611z M34.656,23.969c-4.587,0-7.588,3.011-7.588,6.967c0,3.872,2.914,6.97,7.412,6.97h0.087c4.677,0,7.585-3.098,7.585-6.97C42.063,26.98,39.244,23.969,34.656,23.969L34.656,23.969zM27.865,83.739H41.27V43.409H27.865V83.739z"/>
-                                      </g>
-                                    </svg>
-                                  </a>
-                              </div>
-                              <div class="col-4 col-md-3 col-xl-2">
-                                <a href="">
-                                  <svg id="Bold" enable-background="new 0 0 24 24" height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"/></svg>
-                                </a>
-                              </div>
-                              <div class="col-4 col-md-3 col-xl-2">
-                                <a href="">
-                                  <svg id="Capa_1" enable-background="new 0 0 512 512" height="50" viewBox="0 0 512 512" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z"/></svg>
-                                </a>
-                              </div>
-                          </div>
-                          </div>
-                    </div>
-                </div>
+                                          C83.002,42.462,89.616,48.226,89.616,60.611L89.616,60.611z M34.656,23.969c-4.587,0-7.588,3.011-7.588,6.967c0,3.872,2.914,6.97,7.412,6.97h0.087c4.677,0,7.585-3.098,7.585-6.97C42.063,26.98,39.244,23.969,34.656,23.969L34.656,23.969zM27.865,83.739H41.27V43.409H27.865V83.739z" />
+                      </g>
+                  </svg>
+                </a>
+              </div>
+              <div class="col-4 col-md-3 col-xl-2">
+                <a href="">
+                  <svg id="Bold" enable-background="new 0 0 24 24" height="50" viewBox="0 0 24 24" width="50"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z" />
+                  </svg>
+                </a>
+              </div>
+              <div class="col-4 col-md-3 col-xl-2">
+                <a href="">
+                  <svg id="Capa_1" enable-background="new 0 0 512 512" height="50" viewBox="0 0 512 512" width="50"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z" />
+                  </svg>
+                </a>
+              </div>
             </div>
-            <div class="content-block-1 container-fluid" id="anchor-b1">
-                <div class="row">
-                    <div class=" col-10 col-md-3  col-sm-8 left-block load-hidden">
-                        <div class="col-md-12 col-12 block-1-image">
-                        </div>
-                    </div>
-                    <div class=" col-10 col-md-6  col-sm-10 right-block load-hidden">
-                        <div class=" col-12 col-md-12 col-sm-12 intro-right-block">
-                            <h1 class="reveal-title-about">About me</h1>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex alias debitis ullam eos sequi dolores vero temporibus sed placeat eligendi! Harum alias aliquam, accusamus cupiditate id repellendus dolore rem fugit voluptates aut voluptatum hic possimus quibusdam, error laudantium aliquid non porro ex dignissimos nam quod.</p>
-                        </div>
-                        <div class=" col-12 col-md-12 main-passions">
-                            <h1 class="reveal-title-about">Hobbies</h1>
-                            <div class="passions-block">
-                                <div class="col-3 col-md-3 col-sm-6">
-                                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
-                                    <h4 class="reveal-title-icons">Coding</h4>
-                                </div>
-                                <div class="col-3 col-md-3 col-sm-6">
-                                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-5.5-2.5l7.51-3.49L17.5 6.5 9.99 9.99 6.5 17.5zm5.5-6.6c.61 0 1.1.49 1.1 1.1s-.49 1.1-1.1 1.1-1.1-.49-1.1-1.1.49-1.1 1.1-1.1z"/></svg>
-                                    <h4 class="reveal-title-icons">Traveling</h4>
-                                </div>
-                                <div class=" col-3 col-md-3 col-sm-6">
-                                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29l-1.43-1.43z"/></svg>
-                                    <h4 class="reveal-title-icons">Fitness</h4>
-                                </div>
-                                <div class="col-3 col-md-3 col-sm-6">
-                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"  viewBox="0 0 24 24"  fill="#000000"><rect fill="none" height="24" width="24"/><path d="M13.5,5.5c1.1,0,2-0.9,2-2s-0.9-2-2-2s-2,0.9-2,2S12.4,5.5,13.5,5.5z M17.5,10.78c-1.23-0.37-2.22-1.17-2.8-2.18l-1-1.6 c-0.41-0.65-1.11-1-1.84-1c-0.78,0-1.59,0.5-1.78,1.44S7,23,7,23h2.1l1.8-8l2.1,2v6h2v-7.5l-2.1-2l0.6-3c1,1.15,2.41,2.01,4,2.34V23 H19V9h-1.5L17.5,10.78z M7.43,13.13l-2.12-0.41c-0.54-0.11-0.9-0.63-0.79-1.17l0.76-3.93c0.21-1.08,1.26-1.79,2.34-1.58l1.16,0.23 L7.43,13.13z"/></svg>
-                                    <h4 class="reveal-title-icons">Hiking</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-block-1 container-fluid" id="anchor-b1">
+      <div class="row">
+        <div class=" col-10 col-md-3  col-sm-8 left-block load-hidden">
+          <div class="col-md-12 col-12 block-1-image">
+          </div>
+        </div>
+        <div class=" col-10 col-md-6  col-sm-10 right-block load-hidden">
+          <div class=" col-12 col-md-12 col-sm-12 intro-right-block">
+            <h1 class="reveal-title-about">About me</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex alias debitis ullam eos sequi dolores vero
+              temporibus sed placeat eligendi! Harum alias aliquam, accusamus cupiditate id repellendus dolore rem fugit
+              voluptates aut voluptatum hic possimus quibusdam, error laudantium aliquid non porro ex dignissimos nam
+              quod.</p>
+          </div>
+          <div class=" col-12 col-md-12 main-passions">
+            <h1 class="reveal-title-about">Hobbies</h1>
+            <div class="passions-block">
+              <div class="col-3 col-md-3 col-sm-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
+                </svg>
+                <h4 class="reveal-title-icons">Coding</h4>
+              </div>
+              <div class="col-3 col-md-3 col-sm-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-5.5-2.5l7.51-3.49L17.5 6.5 9.99 9.99 6.5 17.5zm5.5-6.6c.61 0 1.1.49 1.1 1.1s-.49 1.1-1.1 1.1-1.1-.49-1.1-1.1.49-1.1 1.1-1.1z" />
+                </svg>
+                <h4 class="reveal-title-icons">Traveling</h4>
+              </div>
+              <div class=" col-3 col-md-3 col-sm-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29l-1.43-1.43z" />
+                </svg>
+                <h4 class="reveal-title-icons">Fitness</h4>
+              </div>
+              <div class="col-3 col-md-3 col-sm-6">
+                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"
+                  fill="#000000">
+                  <rect fill="none" height="24" width="24" />
+                  <path
+                    d="M13.5,5.5c1.1,0,2-0.9,2-2s-0.9-2-2-2s-2,0.9-2,2S12.4,5.5,13.5,5.5z M17.5,10.78c-1.23-0.37-2.22-1.17-2.8-2.18l-1-1.6 c-0.41-0.65-1.11-1-1.84-1c-0.78,0-1.59,0.5-1.78,1.44S7,23,7,23h2.1l1.8-8l2.1,2v6h2v-7.5l-2.1-2l0.6-3c1,1.15,2.41,2.01,4,2.34V23 H19V9h-1.5L17.5,10.78z M7.43,13.13l-2.12-0.41c-0.54-0.11-0.9-0.63-0.79-1.17l0.76-3.93c0.21-1.08,1.26-1.79,2.34-1.58l1.16,0.23 L7.43,13.13z" />
+                </svg>
+                <h4 class="reveal-title-icons">Hiking</h4>
+              </div>
             </div>
-            <div class="content-block-2  d-flex justify-content-around flex-column" id="anchor-b2">
-                <!-- <div class="row justify-content-around">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-block-2  d-flex justify-content-around flex-column" id="anchor-b2">
+      <!-- <div class="row justify-content-around">
                     <div class="card col-8 col-xl-3 col-md-3" style="width: 18rem;">
                         <img class="card-img-top" src="..." alt="Card image cap">
                         <div class="card-body">
@@ -195,62 +233,123 @@
                         </div>
                       </div>
                 </div> -->
+      <!-- </div> -->
+      <div class="content-block-3 container-fluid" id="anchor-b3">
+        <div class="col-10 col-md-12 col-xl-12">
+          <div class="col-md-2 form-title-left">
+            <h1 class="getintouch col-md-8 col-8 col-xl-8">Get in touch ?</h1>
+            <div class="row col-12 col-md-2 col-xl-2 row-social">
+              <div class="col-md-4 col-xl-4 col-4">
+                <a class="icon-social-form" href="https://www.linkedin.com/feed/">
+                  <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 112.196 112.196"
+                    style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve">
+                    <g>
+                      <circle style="fill:#52DEE5;" cx="56.098" cy="56.097" r="56.098" />
+                      <g>
+                        <path style="fill:#FFFFFF;"
+                          d="M89.616,60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118
+                                          c-3.705,0-5.906,2.491-6.878,4.903c-0.353,0.862-0.444,2.059-0.444,3.268v22.524H48.684c0,0,0.18-36.546,0-40.329h13.411v5.715
+                                          c-0.027,0.045-0.065,0.089-0.089,0.132h0.089v-0.132c1.782-2.742,4.96-6.662,12.085-6.662
+                                          C83.002,42.462,89.616,48.226,89.616,60.611L89.616,60.611z M34.656,23.969c-4.587,0-7.588,3.011-7.588,6.967c0,3.872,2.914,6.97,7.412,6.97h0.087c4.677,0,7.585-3.098,7.585-6.97C42.063,26.98,39.244,23.969,34.656,23.969L34.656,23.969zM27.865,83.739H41.27V43.409H27.865V83.739z" />
+                      </g>
+                  </svg>
+                </a>
+              </div>
+              <div class="col-md-4 col-xl-4 col-4">
+                <a class="icon-social-form" href="">
+                  <svg id="Bold" enable-background="new 0 0 24 24" height="50" viewBox="0 0 24 24" width="50"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path style="fill:#52DEE5;" 
+                      d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z" />
+                  </svg>
+                </a>
+              </div>
+              <div class="col-md-4 col-xl-4 col-4">
+              <a class="icon-social-form" href="">
+                  <svg id="Capa_1" enable-background="new 0 0 512 512" height="50" viewBox="0 0 512 512" width="50"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path style="fill:#52DEE5;" 
+                      d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z" />
+                  </svg>
+                </a>
+              </div>
             </div>
-            <div class="content-block-3 container-fluid" id="anchor-b3">
-                <div class="col-10 col-md-12 col-xl-12">
-                  <form class="contact-form col-10 col-md-6 col-xl-6" action="https://formsubmit.co/thomas.cristophol@gmail.com" method="POST">
-                    <h1>Get in touch ?</h1>
-                    <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <div class="col">
-                          <!-- <label for="firstname">Nom</label> -->
-                          <input class="form-control" type="text" placeholder="Jhon" id="firstname" name="firstname">
-                        </div>
-                        </div>
-                        <div class="from-group col-md-6">
-                          <div class="col">
-                            <!-- <label for="lastname">Prenom</label> -->
-                            <input class="form-control" type="text" placeholder="Doe" id="lastname" name="lastname">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="from-group col-md-6">
-                          <div class="col">
-                            <!-- <label for="mail">Email</label> -->
-                            <input class="form-control" type="email" placeholder="jhon.doe@gmail.com" id="email" name="email">
-                          </div>
-                          </div>
-                          <div class="form-group col-md-6">
-                            <div class="col">
-                              <!-- <label for="name">subject</label> -->
-                              <input class="form-control" type="text" placeholder="Subject" id="subject" name="subject">
-                            </div>
-                          </div>
-                        </div>
-                        <div>
-                          <div class="form-group">
-                            <div class="col">
-                              <!-- <label for="message">Message</label> -->
-                              <input class="form-control message" type="text" placeholder="tell me more about.." name="message" id="message">
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class=" form-group col-md-12">
-                            <div class="block-btn-send col-10 col-md-12 col-xl-12">
-                              <input type="submit" value="send" class="btn btn-primary"></input>
-                            </div>
-                        </div>
-                      </div>
-                      </div>
-                    </div>
-                  </form>
+          </div>
+          <div class="col-md-8 col-12 col-xl-10 container-form">
+            <form class="contact-form col-10 col-md-10 col-xl-6"
+              action="https://formsubmit.co/thomas.cristophol@gmail.com" method="POST">
+              <!-- <h1>Get in touch ?</h1> -->
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <div class="col">
+                    <input class="form-control" type="text" id="firstname" name="firstname" required>
+                    <label class="form-control-placeholder" for="firstname">Nom</label>
+                  </div>
                 </div>
-            </div>
+                <div class="from-group col-md-6">
+                  <div class="col">
+                    <input class="form-control" type="text" id="lastname" name="lastname" required>
+                    <label class="form-control-placeholder" for="lastname">Prenom<label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <div class="col">
+                    <input class="form-control" type="text" id="subject" name="subject" required>
+                    <label class="form-control-placeholder" for="name">subject</label>
+                  </div>
+                </div>
+                <div class="from-group col-md-6">
+                  <div class="col">
+                    <input class="form-control" type="email" id="email" name="email" required>
+                    <label class="form-control-placeholder" for="mail">Email</label>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="form-group">
+                  <div class="col">
+                    <!-- <label for="message">Message</label> -->
+                    <textarea class="form-control message" type="text" name="message" id="message"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group col-md-12">
+                    <div class="block-btn-send col-10 col-md-12 col-xl-12">
+                      <input type="submit" value="send" class="btn btn-primary"></input>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </form>
+        </div>
+      </div>
     </div>
+  </div>
+
+
+  <!-- <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="form-group">
+            <input type="text" id="name" class="form-control" required>
+            <label class="form-control-placeholder" for="name">Name</label>
+          </div>
+          <div class="form-group">
+            <input type="password" id="password" class="form-control" required>
+            <label class="form-control-placeholder" for="password">Password</label>
+          </div>
+        </div>
+      </div>
+    </div> -->
 </body>
 <script src="script.js"></script>
-<scrip src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></scrip>
-<scrip src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></scrip>
+<scrip src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></scrip>
+<scrip src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></scrip>
 
 </html>
