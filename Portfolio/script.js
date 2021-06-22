@@ -78,7 +78,9 @@ $backtop.on('click', function(e){
 
 $btnScroll = $('.btn-scroll');
 $btnScroll.on('click', function(e){
-  $("html, body").animate({scrollTop:762}, 100);
+$('html, body').animate({
+  scrollTop: $("#anchor-b1").offset().top
+});
 });
 
 // SCROLLL REVEAL FOR LOVE
