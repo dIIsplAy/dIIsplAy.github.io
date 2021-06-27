@@ -119,4 +119,29 @@ ScrollReveal().reveal('.reveal-title-about', {
 // });
 
 
+// try to load   SOBER THEME
 
+var isSombre = true;
+function changeCss(){
+var stylesheet = document.getElementById('stylesheet');
+if(isSombre === true){
+   stylesheet.href='soberstyle.css';
+}else {
+    stylesheet.href='soberstyle.css';
+}
+}
+
+function changeCss(){
+         var css = document.getElementById("stylesheet").href;      
+         var etat = css.endsWith("style.css");
+         if(etat==true){
+                 document.getElementById("stylesheet").setAttribute("href", "dark.css"); 
+         } else {
+             document.getElementById("stylesheet").setAttribute("href", "style.css");
+           }
+}
+
+
+
+
+    
