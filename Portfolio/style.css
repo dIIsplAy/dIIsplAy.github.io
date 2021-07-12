@@ -355,15 +355,17 @@ div > .nav-right-logo > div {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 }
 .photo {
   background-image: url("image/thomas-bleu.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .block-about{
  position: absolute;
-    left: 400px;
+    left: 100px;
     margin-top: 150px;
     height: 100%;
     display: flex;
@@ -374,7 +376,7 @@ div > .nav-right-logo > div {
   margin-top: 4rem;
   color: #ffffff;
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
   font-size:24px;
 }
 #title-about {
@@ -386,23 +388,48 @@ div > .nav-right-logo > div {
   color: #ffffff;
   text-transform: capitalize;
   letter-spacing: 5px;
+  max-width: 80%;
 }
-
+#title-stack{
+  font-size: 32px !important;
+  font-family: "Odibee Sans", cursive !important;
+  font-weight: 400 !important;
+  color:#383D3B !important;
+}
 #list-stack{
   list-style: none;
 }
 #list-stack > ul{
-  font-size:24px;
+  font-size:22px;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: capitalize;
-  
+  padding: 0px !important;
+}
+
+.svg-stack{
+  height: 40px;
+  width: 40px;
+  /* max-width: 100%; */
+  fill:#ffffff !important;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.svg-stack:hover{
+ fill:#383D3B!important;
+ transform: scale(1.2);
+}
+
+
+.icon-row{
+  max-width: 100%;
 }
 #btn-cv{
-  width: 60px;
-  padding:10px 10px;
+  width: 80px;
+  padding:8px 10px;
   background-color: #52dee5;
   border:1px solid #ffffff;
   border-radius: 8%;
@@ -605,7 +632,7 @@ outline: none !important;
   top: 90vh;
   z-index: 2;
   display: flex;
-  border: 2px solid #383d3b;
+  border: 2px solid #FFFFFF;
   border-radius: 8px;
   justify-content: center;
   align-items: center;
@@ -615,12 +642,12 @@ outline: none !important;
 }
 
 .back-top > svg {
-  fill: #383d3b;
+  fill: #FFFFFF;
   transition: 0.8s;
 }
 
 .back-top > svg:hover {
-  fill: #eee5e9;
+  fill: #383D3B;
 }
 
 /* INPUT TOGGLE SWITCH DARK/LIGHT */
@@ -676,8 +703,14 @@ outline: none !important;
   ul {
     font-size: 14px;
   }
-}
 
+}
+@media only screen and (max-width:900px){
+  #svg-stack{
+    height: 30px;
+    width: 30px;
+  }
+}
 @media only screen and (max-width: 700px) {
   .info > li > ul {
     font-size: 18px;
@@ -754,5 +787,21 @@ outline: none !important;
   .nav-right-logo {
     height: 50%;
     justify-content: center;
+  }
+
+  .photo{
+    display:none;
+  }
+  #list-stack{
+    text-align: center;
+  }
+   #list-stack > ul{
+     font-size: 32px;
+   }
+}
+
+@media only screen and (max-width:800px){
+    .photo{
+    display:none;
   }
 }

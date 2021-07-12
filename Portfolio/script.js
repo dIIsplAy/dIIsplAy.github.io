@@ -109,6 +109,20 @@ ScrollReveal().reveal('.reveal-title-about', {
   origin: 'right',
   distance: '20px',
 });
+
+ScrollReveal().reveal('#title-about',{
+  delay:500,
+  duration:400,
+  easing: 'ease-in',
+  origin:'right',
+  scale: 1.5,
+  distance: '6em',
+});
+ScrollReveal().reveal('#text-about-me',{
+  delay:800,
+  duration:400,
+  easing: 'ease-in',
+});
 // ScrollReveal().reveal('.reveal-title-icons', {
 //   delay: 1500,
 //   duration:400,
