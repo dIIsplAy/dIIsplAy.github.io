@@ -451,12 +451,73 @@ div > .nav-right-logo > div {
 /* BLOCK CONTENT 2  */
 
 .content-block-2 {
-  height: 100vh;
-  background-color: green;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
+.testWork{
+  background-color:red;
+  height: 90%;
+  /* margin: 30px 30px; */
+  transition: transform .1s ease-in;
+  padding:0px !important;
+  border-radius: 5%;
+}
+.testWork > div >p {
+  width: 80%;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.testWork > div >a {
+  border:1px solid #52dee5;
+  padding: 10px 20px;
+  background-color:#52dee5;
+  color:#FFFFFF;
+  border-radius: 6%;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+}
+.testWork > div >a:hover{
+  color:#FFFFFF;
+  background-color:transparent;
+  border:1px solid #FFFFFF;
+}
+
+
+#chilBlock-img-1{
+  background-image: url('image/work-img1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.childBlock{
+  filter: grayscale(1);
+  height: 100%;
+  transition: all .5s;
+  padding:0px !important;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5%;
+  text-align: center;
+}
+.testWork:hover .childBlock,
+.testWork:focus .childBlock {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+
+
 .content-block-2 > .row {
-  padding: 20px;
+  height: 45%;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /* FORM */
