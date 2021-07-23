@@ -206,7 +206,6 @@ p{
   left: 0;
   top: 0;
   position: fixed;
-  border-right: 1px solid #383d3b;
   background-size: 100%;
   display: flex;
   padding: 0;
@@ -452,7 +451,6 @@ div > .nav-right-logo > div {
 
 .content-block-2 {
     height: 100vh;
-    background-color: #FFFFFF;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -460,14 +458,14 @@ div > .nav-right-logo > div {
 
 .testWork{
   background-color:red;
-  height: 90%;
+  height: 40vh;
   /* margin: 30px 30px; */
   transition: transform .1s ease-in;
   padding:0px !important;
   border-radius: 5%;
 }
 .testWork > div >p {
-  width: 80%;
+  width: 100%;
   font-size: 16px;
   color: #FFFFFF;
   font-weight: 400;
@@ -478,7 +476,7 @@ div > .nav-right-logo > div {
   padding: 10px 20px;
   background-color:#52dee5;
   color:#FFFFFF;
-  border-radius: 6%;
+  border-radius: 3%;
   text-decoration: none;
   transition: 0.3s ease-in;
 }
@@ -495,6 +493,12 @@ div > .nav-right-logo > div {
   background-position: center;
   background-repeat: no-repeat;
 }
+#chilBlock-img-2{
+  background-image: url('image/stairs.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .childBlock{
   filter: grayscale(1);
   height: 100%;
@@ -506,6 +510,7 @@ div > .nav-right-logo > div {
   flex-direction: column;
   border-radius: 5%;
   text-align: center;
+  padding:10px !important;
 }
 .testWork:hover .childBlock,
 .testWork:focus .childBlock {
@@ -858,6 +863,13 @@ outline: none !important;
   }
    #list-stack > ul{
      font-size: 32px;
+   }
+
+   .content-block-2{
+     min-height: 280vh;
+   }
+   .testWork{
+     margin: 15px 15px !important;
    }
 }
 
