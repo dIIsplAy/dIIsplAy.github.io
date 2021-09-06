@@ -1,0 +1,125 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color:#e2e2e2;
+
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+h2{
+    color:#000000;
+  font-family: 'Roboto', sans-serif; 
+}
+
+h1 {
+  color:#000000;
+  font-family: 'Roboto', sans-serif; 
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size:18px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+/* font-family: 'Alfa Slab One', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+/* font-family: 'Odibee Sans', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+
+
+.mainContainer{
+margin-top:30px;
+}
+.my-todo{
+  margin-bottom:20px;
+}
+.todoListItem{
+    padding:10px 10px;
+}
+
+.todoList{
+    display:flex;
+    justify-content: space-between;
+    margin:5px 5px;
+    border-bottom:1px solid black;
+    align-items: baseline;
+   padding:5px 5px;
+}
+
+.deleteTask{
+height: 40px;
+width: 40px;
+border:none;
+background-color:transparent;
+font-size:24px;
+font-weight: 900;
+color:red;
+}
+table{
+  margin-top:5px;
+}
+.clear-task{
+  cursor: pointer;
+  color:#ffffff !important;
+  padding:5px 20px !important;
+  font-size:14px;
+  background-color:red;
+  border-radius:.25rem;
+  border:1px solid red;
+  transition:0.3s ease-in;
+}
+
+.clear-task:hover{
+  background-color:#ffffff;
+  color:red !important;
+}
+
+.btnPush{
+  cursor: pointer;
+}
+
+.btnBlock{
+    display:flex;
+    justify-content: center;
+}
+
+.input-value{
+  margin-left:30px !important;
+  height: 40px;
+}
+
+.inputVal{
+  outline:none;
+}
+/*.clear-task{
+    padding:8px 8px;
+    background-color:#FFFFFF;
+    border:1px solid black;
+    border-radius:4%;
+    transition: 0.5s ease-in;
+    outline: none !important;
+}*/
+
+
+
+button{
+    outline: none !important;
+}
