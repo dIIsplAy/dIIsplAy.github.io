@@ -117,8 +117,10 @@ function displayMeteo(dataWeather, ville) {
 }
 
 function foundIP(){
+    let tokenCity="916621cf0ca841f698c762ae87a4c9a5"
     let xhr = new XMLHttpRequest();
-    let urlIpApi="https://api.ipify.org?format=json"
+    let urlIpApi=`https://api.ipgeolocation.io/ipgeo?apiKey=${tokenCity}&lang=fr`
+    // let urlIpApi="https://api.ipify.org?format=json"
      xhr.open("GET", urlIpApi, true);
     // xhr.setRequestHeader("Authorization", `Bearer ${token}`);
     xhr.onload = () => {
