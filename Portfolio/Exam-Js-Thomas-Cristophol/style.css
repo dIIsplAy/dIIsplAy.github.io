@@ -1,0 +1,14 @@
+.boxWeather{
+    border:1px solid white;
+    padding:15px 15px;
+    color: #fff;
+}
+
+body{
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-size:60px;
+}
