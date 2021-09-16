@@ -499,6 +499,12 @@ div > .nav-right-logo > div {
   background-position: center;
   background-repeat: no-repeat;
 }
+#chilBlock-img-3{
+  background-image: url('image/meteo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .childBlock{
   filter: grayscale(1);
   height: 100%;
